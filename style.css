@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #10101c;
+  color: white;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  background-color: #1b1b2e;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #bd91ff;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(197, 182, 182);
+  padding: 0 11px;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #884edf;
+}
+
+input {
+  width: 100%;
+  margin: 20px 0 15px 0;
+  padding: 15px;
+  border: 2px solid #272742;
+  border-radius: 10px;
+  background-color: #1b1b2e;
+  color: white;
+  font-size: 15px;
+}
+
+input:hover {
+  background-color: #292640;
+  border-color: #9b6dff;
+  box-shadow: 0 0 12px #9b6dff33;
+}
+
+.play-feature {
+  width: 100%;
+  height: 180px;
+  background-color: #1b1b2e;
+  border: 1px solid #272742;
+  padding: 20px;
+  line-height: 40px;
+  border-radius: 10px;
+  margin: 15px 0 30px 0;
+}
+
+p {
+  color: rgb(197, 182, 182);
+}
+
+.play-feature button {
+  padding: 10px 25px;
+  font-size: 15px;
+  color: white;
+  background-color: #884edf;
+  font-weight: bold;
+  border-radius: 100px;
+  margin-top: 5px;
+  border: 1px solid #babad5;
+  cursor: pointer;
+}
+
+.play-feature button:hover {
+  background-color: white;
+  color: #884edf;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.plalist-con {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.playlist {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1b1b2e;
+  font-size: 15px;
+  border: 1px solid #272742;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+
+.playlist:hover {
+  background-color: #292640;
+  border-color: #9b6dff;
+  box-shadow: 0 0 12px #9b6dff33;
+}
+
+.song-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icons1 {
+  font-size: 30px;
+}
+
+.pra {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.butt {
+  width: 50px;
+  height: 50px;
+  background-color: #884edf;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.butt:hover {
+  background-color: white;
+  color: #884edf;
+}
+
+.butt span {
+  font-size: 20px;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #1b1b2e;
+  margin: 40px 0;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.footer button {
+  padding: 10px 25px;
+  font-size: 15px;
+  color: white;
+  background-color: #884edf;
+  font-weight: bold;
+  border-radius: 100px;
+  margin-top: 5px;
+  border: 1px solid #babad5;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  background-color: white;
+  color: #884edf;
+}
